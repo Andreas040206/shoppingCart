@@ -1,0 +1,8 @@
+A router to switch between diffrent pages, with diffrent urls    *
+Create test for all components                                   *
+Make proptypes for all components                                *
+Fetch data from the fakeStoreApi avoiding the waterfall effect   *
+Make css modules for all components                              *
+
+
+To get started i need to fetch some data from the fakeStoreApi. 
