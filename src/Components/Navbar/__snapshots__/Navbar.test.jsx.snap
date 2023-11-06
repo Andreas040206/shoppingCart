@@ -1,0 +1,41 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar tests > Renders the navbar component 1`] = `
+<div>
+  <div
+    class="_con_7e3bfa"
+  >
+    <img
+      class="_logo_7e3bfa"
+      src="/src/assets/Logo.png"
+    />
+    <div
+      class="_buttonCon_7e3bfa"
+    >
+      <button
+        class="_menuBtn_7e3bfa"
+      >
+        HOME
+      </button>
+      <button
+        class="_menuBtn_7e3bfa"
+      >
+        SHOP
+      </button>
+      <button
+        class="_menuBtn_7e3bfa"
+      >
+        MORE
+      </button>
+    </div>
+    <div
+      class="_bagCon_7e3bfa"
+    >
+      <img
+        class="_bagIcon_7e3bfa"
+        src="/src/assets/bagIcon.png"
+      />
+    </div>
+  </div>
+</div>
+`;
