@@ -1,0 +1,31 @@
+.btn {
+  height: 40px;
+  font: 24px;
+  font-weight: 700;
+  padding: 0px 20px;
+  border-radius: 6px;
+  border: none;
+  transition: 0.3s;
+}
+
+.light {
+  border: 3px solid rgb(68, 0, 0);
+  color: rgb(68, 0, 0);
+  background-color: #ffffff;
+}
+
+.light:hover {
+  color: rgb(255, 181, 131);
+  background-color: rgb(68, 0, 0);
+}
+
+.dark {
+  color: rgb(255, 181, 131);
+  background-color: rgb(68, 0, 0);
+  border: 3px solid rgb(68, 0, 0);
+}
+
+.dark:hover {
+  color: rgb(68, 0, 0);
+  background-color: #ffffff;
+}
