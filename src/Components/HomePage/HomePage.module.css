@@ -1,0 +1,64 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.coverImg {
+  width: 100%;
+  height: min(600px, 100vh);
+  object-fit: cover;
+  object-position: 0px -15vw;
+}
+
+.logo {
+  position: absolute;
+  filter: brightness(0%);
+  height: 160px;
+  animation: logoAnimation 7s infinite;
+}
+
+.textCon {
+  display: flex;
+  flex-direction: column;
+  padding: 100px max(5vw, calc(50vw - 600px));
+  gap: 20px;
+}
+
+.header {
+  font-size: 40px;
+  color: rgb(68, 0, 0);
+}
+
+.text {
+  font-size: 20px;
+  color: rgb(68, 0, 0);
+}
+
+@keyframes logoAnimation {
+  0% {
+    filter: brightness(0%);
+  }
+  10% {
+    filter: brightness(0%);
+  }
+  30% {
+    filter: brightness(100%);
+  }
+  70% {
+    filter: brightness(100%);
+  }
+  90% {
+    filter: brightness(0%);
+  }
+  100% {
+    filter: brightness(0%);
+  }
+}

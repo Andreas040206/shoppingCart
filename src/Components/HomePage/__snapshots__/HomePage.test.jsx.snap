@@ -1,0 +1,36 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Homepage test > Renders the content correctly 1`] = `
+<div>
+  <div
+    class="_page_99d6b3"
+  >
+    <div
+      class="_imgCon_99d6b3"
+    >
+      <img
+        class="_logo_99d6b3"
+        src="/src/assets/Logo-removebg.png"
+      />
+      <img
+        class="_coverImg_99d6b3"
+        src="/src/assets/frontClothingImg.jpg"
+      />
+    </div>
+    <div
+      class="_textCon_99d6b3"
+    >
+      <span
+        class="_header_99d6b3"
+      >
+        Fashion since 1923
+      </span>
+      <span
+        class="_text_99d6b3"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum scelerisque rutrum. Donec auctor magna sit amet consequat pretium. Ut mollis sollicitudin ex eget consectetur. Duis luctus elementum ex, condimentum aliquam nisl ultrices vel. Nullam vel suscipit justo. Ut vel dignissim risus. Nam tristique laoreet massa auctor lacinia. Sed sit amet porttitor est. Suspendisse rhoncus velit id mattis malesuada.
+      </span>
+    </div>
+  </div>
+</div>
+`;
