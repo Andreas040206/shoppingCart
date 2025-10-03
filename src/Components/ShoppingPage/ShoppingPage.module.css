@@ -1,0 +1,53 @@
+.pageCon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.productsCon {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.searchbarCon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchbarInput {
+  margin: 20px;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  width: min(500px, 90vw);
+  height: 35px;
+  border-radius: 20px;
+  padding: 0px 40px;
+  font-size: 18px;
+}
+
+.searchbarInput:focus {
+  outline: none;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 35px;
+  height: 20px;
+}
+
+.loadCon {
+  width: 100%;
+  height: min(100vh, 600px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingGif {
+  height: 120px;
+}

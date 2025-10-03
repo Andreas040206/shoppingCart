@@ -1,0 +1,16 @@
+.con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  gap: 30px;
+}
+
+.img {
+  height: 150px;
+}
+
+.text {
+  font-size: 24px;
+}

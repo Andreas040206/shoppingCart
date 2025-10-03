@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing ThankYouPage component > Loads correctly 1`] = `
+<div>
+  <div
+    class="_bgCon_96ca8e null"
+  >
+    <div
+      class="_con_96ca8e null"
+    >
+      <h1
+        class="_header_96ca8e"
+      >
+        Thank you!
+      </h1>
+      <span
+        class="_text_96ca8e"
+      >
+        Thanks for testing my webside
+      </span>
+      <button
+        class="_btn_04cbf6 _dark_04cbf6"
+      >
+        Try again!
+      </button>
+    </div>
+  </div>
+</div>
+`;

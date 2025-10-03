@@ -1,0 +1,96 @@
+.bgCon {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.39);
+  z-index: 100;
+  animation: 0.3s bgFade;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgConClosing {
+  animation: bgFadeOut 0.3s;
+  animation-delay: 1s;
+}
+
+@keyframes bgFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bgFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.con {
+  height: min(400px, 95vh);
+  width: min(600px, 95vw);
+  background-color: #fff;
+  animation: conFadeIn 1s ease-out;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conClosing {
+  animation: conFadeOut 1s forwards ease-in;
+}
+
+@keyframes conFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-400px);
+  }
+  40% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes conFadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(400px);
+    opacity: 0;
+  }
+}
+
+.header {
+  font-size: 40px;
+  margin: 0px 0px 10px 0px;
+}
+
+.text {
+  color: #424242;
+  margin-bottom: 50px;
+}

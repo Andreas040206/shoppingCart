@@ -1,0 +1,49 @@
+.pageCon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.imgCon {
+  width: max(600px, 50vw);
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 70vh;
+  object-fit: contain;
+}
+
+.textCon {
+  width: max(49vw, 320px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textInnerCon {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: min(700px, 90vw);
+  height: 300px;
+  position: relative;
+}
+
+.header {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.btnCon {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}

@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing the MorePage > Loads things correctly 1`] = `
+<div>
+  <div
+    class="_con_3361f4"
+  >
+    <img
+      class="_img_3361f4"
+      src="/src/assets/rocket.gif"
+    />
+    <span
+      class="_text_3361f4"
+    >
+      Sorry, nothing here...
+    </span>
+  </div>
+</div>
+`;

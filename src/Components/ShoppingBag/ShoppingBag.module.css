@@ -1,0 +1,191 @@
+.con {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: min(500px, 90vw);
+  height: 100vh;
+  z-index: 200;
+  background-color: rgb(238, 238, 238);
+  animation: 2s sideBarOut;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@keyframes sideBarOut {
+  0% {
+    right: calc(max(-500px, -90vw) - 20px);
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+.backArrow {
+  position: absolute;
+  font-size: 40px;
+  background-color: #eeeeee;
+  color: #440000;
+  border: none;
+  border-radius: 30px;
+  top: calc(50vh - 50px);
+  width: 40px;
+  left: -15px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.backArrow:hover {
+  color: rgb(255, 181, 131);
+}
+
+.conClosing {
+  animation: sideBarClose 2s forwards;
+}
+
+@keyframes sideBarClose {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: calc(max(-500px, -90vw) - 20px);
+  }
+}
+
+.itemCon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 50vh;
+  overflow: scroll;
+  width: min(400px, 90%);
+  background-color: #f7f7f7;
+  padding: 10px;
+  z-index: 30;
+}
+
+.itemElCon {
+  height: 120px;
+  width: calc(100% - 50px);
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.iconImg {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+}
+
+.itemTextCon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 70px;
+}
+
+.itemText {
+  font-size: 12px;
+  color: #440000;
+  font-weight: bold;
+  width: 70px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.amountCon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-left: 25px;
+}
+
+.amountText {
+  color: #440000;
+  font-size: 14px;
+}
+
+.amountBtn {
+  background-color: #fff;
+  border: #440000 2px solid;
+  color: #440000;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: 0.3s;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amountBtn:hover {
+  background-color: #440000;
+  color: rgb(255, 181, 131);
+}
+
+.deleteBtn {
+  position: absolute;
+  background-color: #ffffff00;
+  border: none;
+  font-size: 20px;
+  right: -15px;
+  top: -15px;
+  color: #440000;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.deleteBtn:hover {
+  color: rgb(255, 181, 131);
+}
+
+.noItemsCon {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noItems {
+  font-size: 18px;
+  font-weight: bold;
+  color: #440000;
+}
+
+.checkOutCon {
+  height: 300px;
+  width: min(400px, 90%);
+}
+
+.totalCon {
+  font-weight: 700;
+  color: #440000;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: solid #440000 3px;
+  padding: 0px 2px 0px 0px;
+}
+
+.checkOutBtnCon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
